@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "maths",
+  "info": {
+    "name": "maths",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "type": "dynamiczone",
+      "components": [
+        "media.document",
+        "media.media",
+        "media.video"
+      ],
+      "required": true
+    }
+  }
+}

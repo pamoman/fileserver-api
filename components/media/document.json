@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_media_documents",
+  "info": {
+    "name": "document",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "expires": {
+      "type": "date"
+    }
+  }
+}

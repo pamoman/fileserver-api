@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_media_media",
+  "info": {
+    "name": "image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "expires": {
+      "type": "date"
+    }
+  }
+}
