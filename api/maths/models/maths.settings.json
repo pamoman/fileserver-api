@@ -15,6 +15,9 @@
       "type": "string",
       "required": true
     },
+    "expires": {
+      "type": "date"
+    },
     "media": {
       "type": "dynamiczone",
       "components": [
@@ -22,7 +25,7 @@
         "media.media",
         "media.video"
       ],
-      "required": true
+      "required": false
     }
   }
 }

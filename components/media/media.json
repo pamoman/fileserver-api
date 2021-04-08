@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_media_media",
+  "collectionName": "components_media_images",
   "info": {
     "name": "image",
     "icon": "image",
@@ -18,9 +18,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "expires": {
-      "type": "date"
     }
   }
 }
