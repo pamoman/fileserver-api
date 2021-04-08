@@ -1,3 +1,3 @@
-# Strapi application
+# DLG Fileserver API
 
-A quick description of your strapi application
+This API is created by Paul Moreland, Pamosystems.
