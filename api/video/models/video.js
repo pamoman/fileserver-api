@@ -5,4 +5,22 @@
  * to customize this model
  */
 
-module.exports = {};
+const check = (data) => {
+    if (!'subject' in data || !data.subject) {
+        throw strapi.errors.badRequest('Ämne krävs!')
+    }
+};
+
+module.exports = {
+     /**
+     * Triggered before device create and update.
+     */
+    lifecycles: {
+        beforeCreate(data) {
+            check(data);
+        },
+        beforeUpdate(_, data) {
+            check(data);
+        }
+    }
+};
