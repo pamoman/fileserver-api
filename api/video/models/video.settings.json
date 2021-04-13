@@ -27,8 +27,8 @@
       "required": true
     },
     "subject": {
-      "model": "subject",
-      "via": "videos"
+      "via": "videos",
+      "model": "subject"
     }
   }
 }

@@ -7,7 +7,7 @@
 
 const check = (data) => {
     if (!'subject' in data || !data.subject) {
-        throw strapi.errors.badRequest('Ämne krävs!')
+        throw strapi.errors.badRequest('Subject required!')
     }
 };
 
