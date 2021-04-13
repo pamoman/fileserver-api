@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subjects",
+  "info": {
+    "name": "Subject"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "documents": {
+      "via": "subject",
+      "collection": "document"
+    },
+    "images": {
+      "via": "subject",
+      "collection": "image"
+    },
+    "videos": {
+      "via": "subject",
+      "collection": "video"
+    }
+  }
+}

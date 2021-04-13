@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/maths",
-      "handler": "maths.find",
+      "path": "/documents",
+      "handler": "document.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/maths/count",
-      "handler": "maths.count",
+      "path": "/documents/count",
+      "handler": "document.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/maths/:id",
-      "handler": "maths.findOne",
+      "path": "/documents/:id",
+      "handler": "document.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/maths",
-      "handler": "maths.create",
+      "path": "/documents",
+      "handler": "document.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/maths/:id",
-      "handler": "maths.update",
+      "path": "/documents/:id",
+      "handler": "document.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/maths/:id",
-      "handler": "maths.delete",
+      "path": "/documents/:id",
+      "handler": "document.delete",
       "config": {
         "policies": []
       }
